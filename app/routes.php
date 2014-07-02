@@ -41,9 +41,8 @@ Route::group(['before' => 'minify.html'], function() {
 });
 
 /**
- * Catch-all error page!
+ * We'll add a handler here (for now atleast) to serve a user freindly 404 error page
  */
-Route::any('{any}', function($any) {
-    return Response::json('Sorry your request for ' . $any . ' was not found!', 404);
-    //return App::abort(404);
+App::missing(function($exception) {
+    return Response::view('pages.404', array(), 404);
 });
