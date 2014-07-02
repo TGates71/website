@@ -172,5 +172,5 @@ return array(
     /**
      * Minify the HTML output of the site?
      */
-    'minify-html' => true,
+    'minify-html' => false,
 );

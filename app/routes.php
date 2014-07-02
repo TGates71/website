@@ -3,7 +3,7 @@
 /**
  * Static page routes, explicit routing FTW!
  */
-Route::group(['filter' => ['minify.html']], function() {
+Route::group(['before' => 'minify.html'], function() {
     Route::get('/', [
         'as' => 'home',
         'uses' => 'PageController@showHomepage'
