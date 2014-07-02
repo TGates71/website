@@ -30,12 +30,12 @@ Route::group(['before' => 'minify.html'], function() {
     ]);
 
     Route::get('support', [
-        'as' => 'support',
+        'as' => 'support.premium',
         'uses' => 'PageController@showSupport'
     ]);
 
     Route::get('support/faqs', [
-        'as' => 'faqs',
+        'as' => 'support.faqs',
         'uses' => 'PageController@showFaqs'
     ]);
 });
