@@ -7,3 +7,8 @@ composer.lock
 .DS_Store
 Thumbs.db
 /nbproject
+id
+index_uuid
+action_set_name
+action_provision
+synced_folders
