@@ -20,12 +20,12 @@ class PageController extends BaseController
     
     public function showDonate()
     {
-        return View::make('pages.team');
+        return View::make('pages.donate');
     }
     
     public function showDownload()
     {
-        return View::make('pages.team');
+        return View::make('pages.download');
     }
     
     public function showSupport()

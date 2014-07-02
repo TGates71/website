@@ -7,7 +7,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="{{ URL::route('home') }}l"><img src="img/sentora_logo.png" class="img-responsive" alt="Sentora"></a>
+            <a class="navbar-brand" href="{{ URL::route('home') }}l"><img src="/img/sentora_logo.png" class="img-responsive" alt="Sentora"></a>
         </div>
         <div class="navbar-collapse collapse">
 
