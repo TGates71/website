@@ -29,7 +29,8 @@
                     <h3>Latest release</h3>
                     <h1><a href="{{ URL::route('download') }}" data-toggle="tooltip" data-placement="top" title="" data-original-title="Download the latest version now!!">1.0.0</a></h1>
                     <p>Released on: <strong>7th May 2013</strong>.</p>
-                    <p class="small">You can grab this version from our <a href="{{ URL::route('download') }}">download</a> section.</p>
+                    <h3>Love Sentora?</h3>
+                    <p class="small">If you benefit and like using Sentora then please help drive the future development of the project by <a href="{{ URL::route('donate') }}">donating today</a>!</p>
                 </div>
             </div>
 
@@ -37,7 +38,7 @@
         <div class="divied-40"></div>
         <div class="row">
             <div class="col-md-12 text-center margin-btm20">
-                <a href="{{ URL::route('home') }}"><img src="img/logo-white.png"></a>
+                <a href="{{ URL::route('home') }}"><img src="img/sentora_watermark.png"></a>
             </div>
             <div class="col-md-12 text-center">
                 <span>&copy; copyright 2014 <a href="/">The Sentora Project</a>. All right reserved.</span>
