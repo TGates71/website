@@ -37,11 +37,14 @@ Download - Sentora
             </div>
 
             <h3>Latest stable release</h3>
-            <p class="margin-btm20">
-                We recommend that production environments uses the latest stable release to ensure stability and security.
-            </p>
+            <p>Installing (or upgrading) the latest release of Sentora is super-simple, just execute the following command on your server:</p>
+            <pre>bash <(curl -Ss https://raw.github.com/sentora/sentora-installers/master/installer.sh)</pre>
+            
             <div class="divied-40"></div>
             <h3>Latest development snapshot</h3>
+            <div class="alert alert-danger">
+                Please be aware that development snapshots should only be used for development and testing purposes, they are not recommended for production environments!
+            </div>
             <p class="margin-btm20">
                 You can download the latest development snapshot as a tar.gz or as a zip file, these files are served up from our git repository kindly hosted over at GitHub.
             </p>
