@@ -7,7 +7,7 @@
         <title>@yield('title')</title>
         @yield('meta')
         <link href="/css/bootstrap.min.css" rel="stylesheet">
-        <link href="/icons/ionicons.css" rel="stylesheet">
+        <link href="/css/ionicons.css" rel="stylesheet">
         <link href="/css/style.css" rel="stylesheet" type="text/css">
         <link href="/css/flexslider.css" rel="stylesheet">
         <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,100,700,500' rel='stylesheet' type='text/css'>
