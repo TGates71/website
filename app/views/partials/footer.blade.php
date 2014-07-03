@@ -19,7 +19,7 @@
                 <div class="footer-column">
                     <h3>Latest announcements</h3>
                     <ul class="list-unstyled contact-list margin-btm20">
-                        <li><i class="ion-alert"></i> <strong><a href="#">The new Sentora website goes live</a></strong> <small>on 24th January 2014</small></li>
+                        <li><strong><a href="#"><i class="ion-ios7-bookmarks-outline"></i> The new Sentora website goes live</a></strong> <small>on 24th January 2014</small></li>
                     </ul>
 
                 </div><!--footer columns end-->
