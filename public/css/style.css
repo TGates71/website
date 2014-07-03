@@ -85,8 +85,6 @@ p{
     clear: both;  
 }
 
-
-/*layout width set what you want*/
 @media(min-width:1200px){
     .container{
         width:970px;
@@ -273,7 +271,7 @@ h3.heading-progress span{
     padding: 0;
     margin: 0;
     min-width: 190px;
-    background-color: #676767;
+    background-color: #111;
     border: none;
     -webkit-border-radius: 0;
     -moz-border-radius: 0;
@@ -281,7 +279,7 @@ h3.heading-progress span{
     -webkit-box-shadow: none;
     -moz-box-shadow: none;
     box-shadow: none;
-    border-top: 2px solid #F54325 !important;
+    border-top: 2px solid #000 !important;
 }
 .navbar .dropdown-menu li a{
     color:#fff;
@@ -310,19 +308,19 @@ h3.heading-progress span{
         line-height: 44px;
         vertical-align: middle;
     }
-.navbar-brand{
-    color:#fff !important;
-    float: left ;
-    padding: 22px 15px;
-    font-weight: 700;
-    font-size: 35px;
-    height: 78px;
-    text-transform: uppercase;
+    .navbar-brand{
+        color:#fff !important;
+        float: left ;
+        padding: 22px 15px;
+        font-weight: 700;
+        font-size: 35px;
+        height: 78px;
+        text-transform: uppercase;
 
-}
-.navbar-brand img{
-    margin-top: -15px !important;
-}
+    }
+    .navbar-brand img{
+        margin-top: -15px !important;
+    }
 }
 
 .navbar-default{
@@ -396,7 +394,7 @@ h3.heading-progress span{
     #page-tree{
         padding-top: 70px !important;
     }
-   
+
 }
 
 .btn{
@@ -808,19 +806,19 @@ h3.heading-progress span{
     color: #fff;
 }
 #page-tree .breadcrumb{
-margin-bottom: 0;
-margin-top: 13px;
-padding: 0px 0;
-background: transparent;
+    margin-bottom: 0;
+    margin-top: 13px;
+    padding: 0px 0;
+    background: transparent;
 }
 #page-tree .breadcrumb li a{
-    color:#000;
+    color:#ff0;
 }
 #page-tree .breadcrumb li i:before{
-    color:#000 !important;
+    color:#ff0 !important;
 }
 #page-tree .breadcrumb li.active a{
-    color:#F54325;
+    color:#fff;
 }
 
 /*footers default*/
