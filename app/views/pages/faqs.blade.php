@@ -2,7 +2,7 @@
 
 {{-- This is the HTML title for the page. --}}
 @section('title')
-Sentora - FAQs
+FAQs - Sentora
 @stop
 
 @section('meta')
