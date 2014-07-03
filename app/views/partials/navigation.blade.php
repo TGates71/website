@@ -13,7 +13,7 @@
 
             <ul class="nav navbar-nav navbar-right">
                 <li class="dropdown">
-                    <a href="/">Home <i class="ion-ios7-arrow-down"></i></a>
+                    <a href="/">Home</a>
                 </li>
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle js-activated" data-toggle="dropdown">About <i class="ion-ios7-arrow-down"></i></a>
@@ -31,10 +31,10 @@
                     </ul>
                 </li>
                 <li class="dropdown">
-                    <a href="{{ URL::route('download') }}">Download <i class="ion-ios7-arrow-down"></i></a>
+                    <a href="{{ URL::route('download') }}">Download</a>
                 </li>
                 <li class="dropdown">
-                    <a href="{{ URL::route('donate') }}">Donate <i class="ion-ios7-arrow-down"></i></a>
+                    <a href="{{ URL::route('donate') }}">Donate</a>
                 </li>
             </ul>
         </div>
