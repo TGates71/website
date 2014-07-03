@@ -25,9 +25,11 @@
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle js-activated" data-toggle="dropdown">Support <i class="ion-ios7-arrow-down"></i></a>
                     <ul class="dropdown-menu">
+                        <li><a href="{{ URL::to('http://docs.sentora.io') }}">Documentation</a></li>
                         <li><a href="{{ URL::route('support.faqs') }}">FAQs</a></li>
-                        <li><a href="{{ URL::to('http://forums.sentora.io') }}">Support forum</a></li>
-                        <li><a href="{{ URL::route('support.premium') }}">Premium support</a></li>
+                        <li><a href="{{ URL::to('http://forums.sentora.io') }}">Forum</a></li>
+                        <li><a href="{{ URL::to('https://github.com/sentora/sentora-core/issues') }}">Bugs</a></li>
+                        <li><a href="{{ URL::route('support.premium') }}">Premium Service</a></li>
                     </ul>
                 </li>
                 <li class="dropdown">
