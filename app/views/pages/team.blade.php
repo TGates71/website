@@ -27,13 +27,15 @@ The team - Sentora
         </div>
     </div>
 </section>
-<div class="divied-60"></div>
 
-<div class="container">
-    <div class="row">
-
-    </div>
-</div>
+<section id="our-team" class="padding-60">
+    <div class="container">
+        <div class="row">
+            <p>The Sentora project requires the support of various teams and each with their own areas of responsibility and expertise.</a>
+            <p>Below is a list of our current team members. If you'd like to join our team please contact Bobby Allen (ballen [at] sentora.io)</a>
+        </div>
+        @include('partials.team')
+</section>
 @stop
 
 {{-- Custom CSS/Javascripts that will be injected into the HTML 'HEAD' portion --}}
