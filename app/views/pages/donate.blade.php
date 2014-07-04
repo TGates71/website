@@ -31,10 +31,10 @@ Donate - Sentora
     <div class="row">
         <div class="col-md-6">
             <h3>Make a donation</h3>
-            <p>Please help drive the project forward and showing your appreciation to the team but donating some money via. PayPal</p>
+            <p>Please help drive the project forward and showing your appreciation to the team by donating some money via. PayPal</p>
             <p>All donations received go towards paying our on-going running costs such as hosting, domain names and where applicable software licenses etc.</p>
-            <p>We truly appreciate all donations, if you use Sentora and appreciate the hard work that our team puts into the project please help us by donating.</p>
-            <p>Many thanks,<br/>The Sentora Team</p>
+            <p>We truly appreciate all donations so please, if you use Sentora and appreciate the hard work that our team puts into the project please help us by donating today!</p>
+            <p>Many thanks,<br/>The Sentora Team.</p>
 
         </div>
         <div class="col-md-6">
