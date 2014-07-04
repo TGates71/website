@@ -38,7 +38,7 @@ About - Sentora
                     <i class="ion-ios7-heart-outline"></i>
                     <h3>Open-source</h3>
                     <p>
-                        Sentora is open-source software (released under the GPL v3 license) enabling you to use it free of charge, free upgrades as well as the ability to extend and share.
+                        Sentora is open-source software (released under the <a href="http://www.gnu.org/copyleft/gpl.html" target="_blank">GPL v3</a> license) enabling you to use it free of charge, free upgrades as well as the ability to extend and share.
                     </p>
                 </div>
             </div>
@@ -56,7 +56,7 @@ About - Sentora
                     <i class="ion-ios7-infinite"></i>
                     <h3>Supported</h3>
                     <p>
-                        Our community support team offer support via our community forums for those that require a faster response we also offer a premium support service.
+                        Our community <a href="{{ URL::route('the-team') }}">support team</a> offer support via our <a href="http://forums.sentora.io" target="_blank">community forums</a> for those that require a faster response we also offer a <a href="{{ URL::route('support.premium') }}" target="_blank">premium support service</a>.
                     </p>
                 </div>
             </div>
@@ -175,10 +175,10 @@ About - Sentora
             <div class="col-md-6">
                 <h3>The history of the project</h3>
                 <p>
-                    The Sentora project was officially born on the 27th June 2014 when the previous members of the ZPanel project decided that following the recent aquision of the project by Hostwinds LLC. contact with the new organisation was extremely limited and progress with the ZPanel project had almost seized; realising that something needed to be done in order to secure the future development and maintainability for its current userbase.
+                    The Sentora project was officially born on the 27th June 2014 when the previous members of the ZPanel project decided that following the recent acquisition of the project by Hostwinds LLC. contact with the new organisation was extremely limited and progress with the ZPanel project had almost seized; realising that something needed to be done in order to secure the future development and maintainability for its current user-base.
                 </p>
                 <p>
-                    As per the GPL v3 license allows, we decided that we would fork the existing project and make various radical changes (such as remove Windows support) and clean up a lot of the core code in an attempt to optimise and build new, improved foundations for the new project.
+                    As per the <a href="http://www.gnu.org/copyleft/gpl.html" target="_blank">GPL v3</a> license allows, we decided that we would fork the existing project and make various radical changes (such as remove Windows support) and clean up a lot of the core code in an attempt to optimise and build new, improved foundations for the new project.
                 </p>
                 <p>
                     Sentora aims to be a compatible release (minus the support for Windows Servers) in terms of modules until such a time that we develop and release a new major version (not utilising the original ZPanel code).
@@ -188,12 +188,12 @@ About - Sentora
                 <h3>Technologies</h3>
                 <p>Sentora is designed primarily to install and work with the following software packages out of the box:-</p>
                 <ul class="list-unstyled list-services">
-                    <li><i class="ion-checkmark-circled"></i> Apache HTTPd</li>
-                    <li><i class="ion-checkmark-circled"></i> PHP</li>
-                    <li><i class="ion-checkmark-circled"></i> ProFTPd</li>
-                    <li><i class="ion-checkmark-circled"></i> MySQL/MariaDB</li>
-                    <li><i class="ion-checkmark-circled"></i> Postfix</li>
-                    <li><i class="ion-checkmark-circled"></i> Dovecot</li>
+                    <li><i class="ion-checkmark-circled"></i> <a href="http://httpd.apache.org/" target="_blank">Apache HTTPd</a></li>
+                    <li><i class="ion-checkmark-circled"></i> <a href="http://php.net/" target="_blank">PHP</a></li>
+                    <li><i class="ion-checkmark-circled"></i> <a href="http://www.proftpd.org/" target="_blank">ProFTPd</a></li>
+                    <li><i class="ion-checkmark-circled"></i> <a href="https://mariadb.org/" target="_blank">MySQL/MariaDB</a></li>
+                    <li><i class="ion-checkmark-circled"></i> <a href="http://www.postfix.org/" target="_blank">Postfix</a></li>
+                    <li><i class="ion-checkmark-circled"></i> <a href="http://www.dovecot.org/" target="_blank">Dovecot</a></li>
                 </ul>
                 <p calss="small">Third-party modules have the ability to substitute the core packages as well as add further packages.</p>
             </div>
