@@ -3,9 +3,9 @@
 <div class="row">
     @foreach($team['members'] as $member)
     <div class="col-md-3 margin-btm20">
-        <img src="{{ $member['role'] }}" class="img-responsive" alt="">
+        <img src="{{ Gravatar::make($member['gravatar_email'])->size(220)->get() }}" class="img-responsive" alt="">
         <div class="person-desc">
-            <h4>{{ $member['name'] }}<small></small></h4>
+            <h4>{{ $member['name'] }}</h4>
             <p>{{ $member['role'] }}</p>
             <ul class="list-unstyled list-inline social">
                 @if(isset($member['social_facebook']) && $member['social_facebook'] != '')

@@ -106,6 +106,8 @@ return array(
         'Illuminate\Validation\ValidationServiceProvider',
         'Illuminate\View\ViewServiceProvider',
         'Illuminate\Workbench\WorkbenchServiceProvider',
+        // Custom Service Providers
+        'Ballen\Gravel\GravelServiceProvider',
     ),
     /*
       |--------------------------------------------------------------------------
@@ -167,8 +169,9 @@ return array(
         'URL' => 'Illuminate\Support\Facades\URL',
         'Validator' => 'Illuminate\Support\Facades\Validator',
         'View' => 'Illuminate\Support\Facades\View',
+        // Custom aliases
+        'Gravatar' => 'Ballen\Gravel\Facades\Gravatar',
     ),
-    
     /**
      * Minify the HTML output of the site?
      */
