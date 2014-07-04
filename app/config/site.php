@@ -15,7 +15,7 @@ return [
                     'social_twitter' => '',
                     'social_googleplus' => '',
                     'social_github' => '',
-                    'social_siteblog' => '',
+                    'social_siteblog' => 'http://bobbyallen.me',
                 ],
                 [
                     'name' => 'Kevin Andrews',
