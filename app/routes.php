@@ -41,6 +41,14 @@ Route::group(['before' => 'minify.html'], function() {
 });
 
 /**
+ * Sitemap generation
+ */
+Route::get('sitemap.xml', [
+    'as' => 'sitemap',
+    'uses' => 'SitemapController@generateXml'
+]);
+
+/**
  * We'll add a handler here (for now atleast) to serve a user freindly 404 error page
  */
 App::missing(function($exception) {

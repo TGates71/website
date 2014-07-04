@@ -108,6 +108,7 @@ return array(
         'Illuminate\Workbench\WorkbenchServiceProvider',
         // Custom Service Providers
         'Ballen\Gravel\GravelServiceProvider',
+        'Roumen\Sitemap\SitemapServiceProvider',
     ),
     /*
       |--------------------------------------------------------------------------
