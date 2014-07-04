@@ -19,6 +19,7 @@
         <![endif]-->
     </head>
     <body>
+        @include('partials.ga') {{-- Apparently this really is the best place to put the GA tracking stuff these days! (immediately after the opening 'body' tag :S) --}}
         @include('partials.navigation')
         @yield('content')
         @include('partials.footer')

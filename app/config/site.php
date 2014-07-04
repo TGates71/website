@@ -1,9 +1,9 @@
 <?php
 
 return [
-    /**
-     * Configuration of team page members.
-     */
+    // Google Analytics Tracking code for the site.
+    'ga_tracking_code' => 'UA-47482933-3',
+    // Quicker way of manipulating teams and team members for the 'about/the-team' page.
     'team' => [
         ['name' => 'Developers',
             'members' => [
