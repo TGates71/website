@@ -987,6 +987,7 @@ h3.heading-progress span{
 .person-desc{
     padding: 20px 15px;
     background-color: #fff;
+    max-width: 220px;
 
 }
 .person-desc h4{
