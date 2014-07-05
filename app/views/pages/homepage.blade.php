@@ -1,7 +1,7 @@
 @extends('layouts.master')
 
 {{-- This is the HTML title for the page. --}}
-@section('title')Sentora - The open-source web hosting control panel.@stop
+@section('title', 'Sentora - The open-source web hosting control panel.')
 
 @section('meta')
 <meta name="description" content="Sentora is an open-source web hosting control panel built specifically to work on a variety of Linux distributions. Sentora is licensed under the GPL and is a separately maintained fork of the original ZPanel project.">
