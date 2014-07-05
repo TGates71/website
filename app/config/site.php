@@ -28,6 +28,7 @@ return [
                     'name' => 'Sam Mottley',
                     'role' => 'Developer',
                     'gravatar_email' => 'sammottleys@gmail.com',
+                    'social_twitter' => 'https://twitter.com/sammottley',
                     'social_github' => 'https://github.com/motters',
                 ],
             ],
