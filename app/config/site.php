@@ -43,6 +43,11 @@ return [
                     'social_github' => 'https://github.com/TGates71',
                 ],
                 [
+                    'name' => 'Pascal Peyremorte',
+                    'role' => 'Support Analyst',
+                    'gravatar_email' => 'p.peyremorte@wanadoo.fr',
+                ],
+                [
                     'name' => 'Jacob Gelling',
                     'role' => 'Support Analyst',
                     'gravatar_email' => 'jacobg830@icloud.com',
