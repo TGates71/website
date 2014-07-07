@@ -1,9 +1,7 @@
 @extends('layouts.master')
 
 {{-- This is the HTML title for the page. --}}
-@section('title')
-Error 404
-@stop
+@section('title', 'Error 404')
 
 @section('meta')
 <!-- This is an error page, we don't need meta tags! -->

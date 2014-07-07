@@ -38,10 +38,10 @@
         <div class="divied-40"></div>
         <div class="row">
             <div class="col-md-12 text-center margin-btm20">
-                <a href="{{ URL::route('home') }}"><img src="/img/sentora_watermark.png"></a>
+                <a href="{{ URL::route('home') }}"><img src="/img/sentora_watermark.png" alt="Sentora - The open-source web hosting control panel"></a>
             </div>
             <div class="col-md-12 text-center">
-                <span>&copy; copyright 2014 <a href="/">The Sentora Project</a>. All right reserved.</span>
+                <span>&copy; Copyright 2014 <a href="/">The Sentora Project</a>. All rights reserved.</span>
             </div>
         </div>
     </div><!--container-->

@@ -1,9 +1,7 @@
 @extends('layouts.master')
 
 {{-- This is the HTML title for the page. --}}
-@section('title')
-Donate - Sentora
-@stop
+@section('title', 'Donate - Sentora')
 
 @section('meta')
 <meta name="author" content="ballen@bobbyallen.me">
