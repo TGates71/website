@@ -3,6 +3,8 @@
 return [
     // Google Analytics Tracking code for the site.
     'ga_tracking_code' => 'UA-47482933-3',
+    // Cache Sentora public API requests for X minutes!
+    'sentora_api_cache_timeout' => 10,
     // Quicker way of manipulating teams and team members for the 'about/the-team' page.
     'team' => [
         ['name' => 'Developers',

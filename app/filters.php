@@ -100,3 +100,8 @@ Route::filter('minify.html', function() {
         }
     });
 });
+
+/**
+ * Registrtion of view composers.
+ */
+View::composer('*', '\\Sentora\\Composers\\NewsVersionComposer');

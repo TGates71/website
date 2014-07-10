@@ -19,7 +19,9 @@
                 <div class="footer-column">
                     <h3>Latest announcements</h3>
                     <ul class="list-unstyled contact-list margin-btm20">
-                        <li><strong><a href="#"><i class="ion-ios7-bookmarks-outline"></i> The new Sentora website goes live</a></strong> <small>on 24th January 2014</small></li>
+                        @foreach($senApiNews as $item)
+                        <li><strong><a href="#"><i class="ion-ios7-bookmarks-outline"></i> {{ $item->title }}</a></strong> <small>posted {{ (new \Carbon\Carbon())->createFromTimestamp($item->created_epoch)->diffForHumans() }}</small></li>
+                        @endforeach
                     </ul>
 
                 </div><!--footer columns end-->
@@ -27,7 +29,7 @@
             <div class="col-md-3 margin-btm20">
                 <div class="footer-column">
                     <h3>Latest release</h3>
-                    <h1><i class="ion-android-download"></i> <a href="{{ URL::route('download') }}" data-toggle="tooltip" data-placement="top" title="" data-original-title="Download it now?">1.0.0</a></h1>
+                    <h1><i class="ion-android-download"></i> <a href="{{ URL::route('download') }}" data-toggle="tooltip" data-placement="top" title="" data-original-title="Download it now?">{{ $senApiVersion }}</a></h1>
                     <p>Released on: <strong>7th May 2013</strong>.</p>
                     <h3>Love Sentora?</h3>
                     <p class="small">If you benefit from and/or like using Sentora then please help drive the future development of the project by <a href="{{ URL::route('donate') }}">donating today</a>!</p>
