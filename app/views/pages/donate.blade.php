@@ -36,6 +36,8 @@
 
         </div>
         <div class="col-md-6">
+            <h3>Donate now...</h3>
+            @include('partials.paypal')
             <h3>With thanks to...</h3>
             <p>We would like to personally thank the following list of people/organisations of whom have made a larger than normal (&dollar;100+) donation to the project as well as those of whom have donated smaller amounts or wished to remain anonymous.</p>
             <ul>
