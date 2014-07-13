@@ -339,7 +339,7 @@ h3.heading-progress span {
 }
 
 #main-slider-bg {
-    background: url('../img/showcase-bg.jpg') no-repeat center fixed;
+    background: url('../img/sentora-bg.jpg') no-repeat center fixed;
     position: relative;
     height: 550px;
 }
@@ -352,7 +352,7 @@ h3.heading-progress span {
     right: 0;
 }
 .slider-main {
-    padding-top: 150px;
+    padding-top: 130px;
 }
 .slider-main .flex-control-paging li a {
     background: #FFF !important;
@@ -366,13 +366,13 @@ h3.heading-progress span {
     text-align: center;
     bottom: 0 !important;
     position: relative;
-    margin-top: 80px;
+    margin-top: 60px;
 }
 
 .slider-heading {
     color: #FFF;
     font-weight: 300;
-    font-size: 4em;
+    font-size: 3.4em;
     margin-top: 70px;
     margin-bottom: 30px;
 }

@@ -17,22 +17,36 @@
 
 {{-- The main page content, this should contain the normal page HTML. --}}
 @section('content')
-<div class="divied-60"></div>
-<div class="container">
-    <div class="row">
-        <div class="col-md-8 col-md-offset-2 text-center">
-            <div class="error-page">
-                <h2>~</h2>
-                <h1>We'll shortly be launching the new project's web site</h1>
-                <p class="margin-btm40">
-                    Our team are currently working hard on developing the new project web site, we hope that you come back and visit us again shortly, in the mean time why not follow us on our <a href="https://twitter.com/sentoracp">Twitter</a> page.
-                </p>
+<section id="main-slider-bg">
+    <div class="slider-overlay">
+        <div class="slider-main">
+            <div class="container text-center">
+                <ul class="slides">
+                    <li>
+                        <h1 class="slider-heading">Introducing Sentora - The open-source web hosting control panel!</h1>
+                        <p class="slider-desc">Sentora is based on the solid foundations of ZPanel and developed by the original team, Sentora provides a robust open-source web hosting control panel for small to medium ISPs.</p>
+                        <a href="{{ URL::route('about') }}" class="btn btn-lg btn-white">Learn more</a>
+                    </li>
+                    <li>
+                        <h1 class="slider-heading">Community and 'Premium' supported</h1>
+                        <p class="slider-desc">Although the software is 'open-source' and we provide a community support forum, our team provide a premium support service enabling you to receive faster responses and resolution times.</p>
+                        <a href="{{ URL::route('support.premium') }}" class="btn btn-lg btn-white">Learn More</a>
+                    </li>
+                    <li>
+                        <h1 class="slider-heading">Extend as you grow...</h1>
+                        <p class="slider-desc">Sentora provides the most common control panel features 'out of the box' but when you need more head over to our 'add-ons store' and download third-party modules, translations and even theme sets!</p>
+                        <a href="#" class="btn btn-lg btn-white">Coming soon!</a>
+                    </li>
+                    <li>
+                        <h1 class="slider-heading">Developed with love!</h1>
+                        <p class="slider-desc">Sentora is developed by a small team of guys, lead by <a href="http://bobbyallen.me" target="_blank">Bobby Allen</a> they contribute their spare time in developing and improving the software.</p>
+                        <a href="{{ URL::route('the-team') }}" class="btn btn-white btn-lg">Meet the team</a>
+                    </li>
+                </ul>
             </div>
         </div>
-
-        <div class="divied-60"></div>
     </div>
-</div>
+</section>
 @stop
 
 {{-- Custom CSS/Javascripts that will be injected into the HTML 'HEAD' portion --}}
