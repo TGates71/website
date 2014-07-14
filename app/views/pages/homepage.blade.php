@@ -64,7 +64,7 @@
                     <i class="ion-help-buoy"></i>
                     <h3>Supported</h3>
                     <p>
-                        We provide both Community based (free) and <a href="{{ URL::route('support.premium') }}">subscription based premium support</a> services to cater for both personal and commercial users!
+                        We provide both community-based (free) and <a href="{{ URL::route('support.premium') }}">subscription-based premium support</a> services to cater for both personal and commercial users!
                     </p>
                 </div>
             </div>
