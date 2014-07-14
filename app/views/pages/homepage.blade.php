@@ -47,6 +47,48 @@
         </div>
     </div>
 </section>
+<section id="services-sec" class="padding-60">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 margin-btm20">
+                <div class="services-box">
+                    <i class="ion-heart"></i>
+                    <h3>Simplified management</h3>
+                    <p>
+                        Sentora is designed to simplify web hosting management, it gives your clients the ability to quickly and easily manage their web hosting.
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-3 margin-btm20">
+                <div class="services-box">
+                    <i class="ion-help-buoy"></i>
+                    <h3>Supported</h3>
+                    <p>
+                        We provide both Community based (free) and <a href="{{ URL::route('support.premium') }}">subscription based premium support</a> services to cater for both personal and commercial users!
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-3 margin-btm20">
+                <div class="services-box">
+                    <i class="ion-android-share"></i>
+                    <h3>Extendable</h3>
+                    <p>
+                        Our Add-ons store provides our users with a central repository to install, rate, sell and publish modules, themes and localisations.
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-3 margin-btm20">
+                <div class="services-box">
+                    <i class="ion-android-developer"></i>
+                    <h3>Open-souce</h3>
+                    <p>
+                        Released under the <a href="{{ URL::to('http://www.gnu.org/licenses/gpl-3.0.html') }}">GPLv3</a>, Sentora is the perfect choice for the most small to medium ISPs looking for a cost effective, extendable platform.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 @stop
 
 {{-- Custom CSS/Javascripts that will be injected into the HTML 'HEAD' portion --}}

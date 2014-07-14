@@ -26,11 +26,20 @@
     </div>
 </section>
 <div class="divied-60"></div>
-
 <div class="container">
     <div class="row">
-
+        <div class="col-md-6">
+            <h3>What is our Premium Support service?</h3>
+            <p>We provide a premium support service in which our users can opt-in and pay a small monthly subscription fee to gain prioritised support direct from our support and development team.</p>
+            <p>Although we provide the community support forum some users require a faster answer and/or feel that due to the fact that all money raised is invested back into the project and our team that it is well worth it as they know they are actively supporting the project.</p>
+        </div>
+        <div class="col-md-6">
+            <h3>How do I subscribe?</h3>
+            <p>You can easily subscribe using PayPal over at our forums, click the button below to start this simply subscription process.</p>
+            <a href="#" class="btn-primary btn btn-lg">Subscribe today!</a>
+        </div>
     </div>
+    <div class="divied-40"></div>
 </div>
 @stop
 

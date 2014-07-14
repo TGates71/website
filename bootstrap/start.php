@@ -27,7 +27,8 @@ $app = new Illuminate\Foundation\Application;
 $env = $app->detectEnvironment(array(
     'local' => array(
         'homestead',
-        'vaprobash'
+        'vaprobash',
+        'LT7-DLVJYY1',
     ),
         ));
 
