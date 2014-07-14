@@ -383,6 +383,10 @@ h3.heading-progress span {
     font-size: 16px;
 }
 
+.slider-desc a {
+    color: #F1F1F1;
+}
+
 
 @media(max-width:767px) {
     /*for slider text*/
