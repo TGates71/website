@@ -82,7 +82,7 @@
                     <i class="ion-android-developer"></i>
                     <h3>Open-souce</h3>
                     <p>
-                        Released under the <a href="{{ URL::to('http://www.gnu.org/licenses/gpl-3.0.html') }}">GPLv3</a>, Sentora is the perfect choice for the most small to medium ISPs looking for a cost effective, extendable platform.
+                        Released under the <a href="{{ URL::to('http://www.gnu.org/licenses/gpl-3.0.html') }}" target="_blank">GPLv3</a>, Sentora is the perfect choice for the most small to medium ISPs looking for a cost effective, extendable platform.
                     </p>
                 </div>
             </div>
