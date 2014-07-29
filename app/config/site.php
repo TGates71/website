@@ -21,7 +21,7 @@ return [
                 [
                     'name' => 'Kevin Andrews',
                     'role' => 'Developer',
-                    'gravatar_email' => 'kjandrews0@gmail.com',
+                    'gravatar_email' => 'kevin@nforced.co.uk',
                     'social_twitter' => 'http://twitter.com/_zVPS',
                     'social_googleplus' => 'https://plus.google.com/109111406765342914674/',
                     'social_github' => 'https://github.com/Caffe1neAdd1ct',
@@ -40,7 +40,7 @@ return [
             'members' => [
                 ['name' => 'Tom Gates',
                     'role' => 'Support Lead',
-                    'gravatar_email' => 'tgates71@gmail.com',
+                    'gravatar_email' => 'tgates@mach-hosting.com',
                     'social_facebook' => 'https://www.facebook.com/tom.djjoker',
                     'social_googleplus' => 'https://google.com/+TomGates71',
                     'social_github' => 'https://github.com/TGates71',
