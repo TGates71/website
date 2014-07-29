@@ -10,6 +10,9 @@ class SentoraPublicApi
 
     private $driver;
 
+    /**
+     * Constructor
+     */
     public function __construct()
     {
         $this->driver = new \Ballen\Sentora\PublicApiClient\PublicApiClient();
@@ -21,7 +24,7 @@ class SentoraPublicApi
      */
     public function latestStableVersion()
     {
-        return Cache::remember('sentora_version', Config::get('site.sentora_api_cache_timeout'), function() {
+        return Cache::remember('sentora_version', Config::get('site.sentora_api_cache_timeout'), function () {
                     return $this->driver->getVersion()->version;
                 });
     }
@@ -32,7 +35,7 @@ class SentoraPublicApi
      */
     public function lastestNews()
     {
-        return Cache::remember('sentora_news', Config::get('site.sentora_api_cache_timeout'), function() {
+        return Cache::remember('sentora_news', Config::get('site.sentora_api_cache_timeout'), function () {
                     return $this->driver->getNews();
                 });
     }

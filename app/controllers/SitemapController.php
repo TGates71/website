@@ -3,6 +3,10 @@
 class SitemapController extends BaseController
 {
 
+    /**
+     * Generates a Google Compatible XML site-map.
+     * @return Roumen\Sitemap
+     */
     public function generateXML()
     {
         $sitemap = App::make('sitemap');
