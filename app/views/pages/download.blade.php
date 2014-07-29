@@ -37,7 +37,7 @@
             <h3>Latest stable release</h3>
             <p>Installing (or upgrading) the latest release of Sentora is super-simple, just execute the following command on your server:</p>
             <pre>bash <(curl -Ss https://raw.github.com/sentora/sentora-installers/master/installer.sh)</pre>
-            
+
             <div class="divied-40"></div>
             <h3>Latest development snapshot</h3>
             <div class="alert alert-danger">

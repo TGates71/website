@@ -30,7 +30,7 @@
                 <div class="footer-column">
                     <h3>Latest release</h3>
                     <h1><i class="ion-android-download"></i> <a href="{{ URL::route('download') }}" data-toggle="tooltip" data-placement="top" title="" data-original-title="Download it now?">{{ $senApiVersion }}</a></h1>
-                    
+
                     <h3>Love Sentora?</h3>
                     <p class="small">If you benefit from and/or like using Sentora then please help drive the future development of the project by <a href="{{ URL::route('donate') }}">donating today</a>!</p>
                 </div>

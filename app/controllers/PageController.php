@@ -7,32 +7,32 @@ class PageController extends BaseController
     {
         return View::make('pages.homepage');
     }
-    
+
     public function showAbout()
     {
         return View::make('pages.about');
     }
-    
+
     public function showTeam()
     {
         return View::make('pages.team');
     }
-    
+
     public function showDonate()
     {
         return View::make('pages.donate');
     }
-    
+
     public function showDownload()
     {
         return View::make('pages.download');
     }
-    
+
     public function showSupport()
     {
         return View::make('pages.support');
     }
-    
+
     public function showFaqs()
     {
         return View::make('pages.faqs');
