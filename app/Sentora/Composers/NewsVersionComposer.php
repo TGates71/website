@@ -14,5 +14,4 @@ class NewsVersionComposer
         $view->with('senApiVersion', (new \Sentora\Providers\SentoraPublicApi)->latestStableVersion());
         $view->with('senApiNews', (new \Sentora\Providers\SentoraPublicApi)->lastestNews());
     }
-
 }

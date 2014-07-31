@@ -19,5 +19,4 @@ class SitemapController extends BaseController
         $sitemap->add(URL::route('support.faqs'), date('c', filemtime(app_path() . '/views/pages/faqs.blade.php')), '0.7', 'monthly');
         return $sitemap->render('xml');
     }
-
 }

@@ -67,5 +67,4 @@ class PageController extends BaseController
     {
         return Redirect::to('http://docs.sentora.io/?node=94');
     }
-
 }

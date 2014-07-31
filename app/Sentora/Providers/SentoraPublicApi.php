@@ -39,5 +39,4 @@ class SentoraPublicApi
                     return $this->driver->getNews();
                 });
     }
-
 }
