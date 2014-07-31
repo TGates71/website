@@ -1,5 +1,7 @@
 <?php
 
+use Illuminate\Routing\Redirector;
+
 class PageController extends BaseController
 {
 
@@ -63,7 +65,7 @@ class PageController extends BaseController
      */
     public function showFaqs()
     {
-        return View::make('pages.faqs');
+        return Redirect::to('http://docs.sentora.io/?node=94');
     }
 
 }
