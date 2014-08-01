@@ -19,7 +19,7 @@ Route::group(['before' => 'minify.html'], function() {
         'uses' => 'PageController@showTeam'
     ]);
 
-    Route::get('dontate', [
+    Route::get('donate', [
         'as' => 'donate',
         'uses' => 'PageController@showDonate'
     ]);
