@@ -83,7 +83,7 @@ class BasicPageLoadTest extends TestCase
      */
     public function testSiteMapPageIsOk()
     {
-        $this->client->request('GET', '/sitemap.xml');
+        $this->client->request('GET', 'sitemap.xml');
         $this->assertTrue($this->client->getResponse()->isOk());
     }
 }
