@@ -7,7 +7,7 @@ return [
     'sentora_api_cache_timeout' => 10,
     // Quicker way of manipulating teams and team members for the 'about/the-team' page.
     'team' => [
-        ['name' => 'Developers',
+        ['name' => 'Core Developement Team',
             'members' => [
                 [
                     'name' => 'Bobby Allen',
@@ -35,6 +35,30 @@ return [
                 ],
             ],
         ],
+        ['name' => 'Development Support Team',
+            'members' => [
+                [
+                    'name' => 'Pascal Peyremorte',
+                    'role' => 'Developer Support Analyst',
+                    'gravatar_email' => 'p.peyremorte@wanadoo.fr',
+                    'social_github' => 'https://github.com/5050',
+                ],
+                [
+                    'name' => 'Jacob Gelling',
+                    'role' => 'Developer Support Analyst',
+                    'gravatar_email' => 'jacobg830@icloud.com',
+                    'social_twitter' => 'https://twitter.com/jacobg830',
+                    'social_googleplus' => 'https://plus.google.com/102914300436620351748/',
+                    'social_github' => 'https://github.com/jacobg830',
+                ],
+                [
+                    'name' => 'Lee McVay',
+                    'role' => 'Developer Support Analyst',
+                    'gravatar_email' => 'leemk616@gmail.com',
+                    'social_github' => 'https://plus.google.com/+LeeMcKay/',
+                ],
+            ],
+        ],
         [
             'name' => 'Support Team',
             'members' => [
@@ -44,20 +68,6 @@ return [
                     'social_facebook' => 'https://www.facebook.com/tom.djjoker',
                     'social_googleplus' => 'https://google.com/+TomGates71',
                     'social_github' => 'https://github.com/TGates71',
-                ],
-                [
-                    'name' => 'Pascal Peyremorte',
-                    'role' => 'Support Analyst',
-                    'gravatar_email' => 'p.peyremorte@wanadoo.fr',
-                    'social_github' => 'https://github.com/5050',
-                ],
-                [
-                    'name' => 'Jacob Gelling',
-                    'role' => 'Support Analyst',
-                    'gravatar_email' => 'jacobg830@icloud.com',
-                    'social_twitter' => 'https://twitter.com/jacobg830',
-                    'social_googleplus' => 'https://plus.google.com/102914300436620351748/',
-                    'social_github' => 'https://github.com/jacobg830',
                 ],
             ],
         ],
