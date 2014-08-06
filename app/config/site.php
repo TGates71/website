@@ -52,7 +52,7 @@ return [
                     'social_github' => 'https://github.com/jacobg830',
                 ],
                 [
-                    'name' => 'Lee McVay',
+                    'name' => 'Lee McKay',
                     'role' => 'Developer Support Analyst',
                     'gravatar_email' => 'leemk616@gmail.com',
                     'social_github' => 'https://plus.google.com/+LeeMcKay/',
